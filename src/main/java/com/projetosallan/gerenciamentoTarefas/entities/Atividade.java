@@ -33,11 +33,12 @@ public class Atividade {
     public Atividade(){
     }
 
-    public Atividade(Integer id, String name, String descricao, Double preco) {
+    public Atividade(Integer id, String name, String descricao, Double preco, Categoria categoria) {
         this.id = id;
         this.name = name;
         this.descricao = descricao;
         this.preco = preco;
+        this.categoria = categoria;
     }
 
     public Integer getId() {
